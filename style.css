@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Roboto:wght@100&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: rgb(238, 230, 220);
+}
+nav {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 15px;
+	padding: 10px;
+	border: 2px;
+	height: 50px;
+	border: 15px inherit;
+}
+ul {
+	display: flex;
+	list-style: none;
+	padding: 10px;
+}
+li {
+	margin: 0 15px;
+}
+
+a {
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+}
+i {
+	height: 0.8rem;
+	width: 0.9rem;
+	margin: 0.1rem;
+	color: yellow;
+}
+.home:active {
+	border-bottom: 2px solid red;
+}
+.active :a:hover {
+	background-color: blue;
+	color: brown;
+}
+.containers {
+	display: flex;
+}
+.container2 {
+	width: 70%;
+}
+img {
+	width: 100%;
+}
+.container1 {
+	padding: 10rem 2rem;
+}
+.containers h2{
+	margin-bottom: 2rem;
+	font-weight: 2000;
+	font-size: 40px;
+}
+button {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	font-size: medium;
+	border-radius: 10em;
+}
+button:hover {
+	background-color: white;
+	color: red;
+	cursor: pointer;
+	border: 2px solid black;
+}
+.images {
+	width: 90%;
+	margin: 50px auto;
+}
+.row {
+	display: flex;
+	gap: 10px;
+}
+/* .baby-clothes {
+	border: 2px solid;
+	flex-basis: 30%;
+}
+.baby-clothes img{
+	width: 100%
+} */
